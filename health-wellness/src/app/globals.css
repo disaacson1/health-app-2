@@ -1,0 +1,507 @@
+.main {
+  background-image: url(gympic1.jpg);
+ position: relative;
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-size: cover;
+font-size: 30px;
+background-color: rgba(0,0,0,0.25);
+opacity: 80%;
+}
+.workout-header {
+background-color: rgb(0, 0, 0);
+width: fit-content;
+opacity: 100%;
+
+}
+.meal-header {
+  background-color: rgb(0, 0, 0);
+  width: fit-content;
+
+}
+.progress-header {
+  background-color: rgb(0, 0, 0);
+  width: fit-content;
+  opacity: 100%;
+}
+.food-header {
+  background-color: rgb(0, 0, 0);
+  width: fit-content;
+  opacity: 100%;
+}
+.header {
+  text-align: center;
+  text-decoration: underline;
+  
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.column1 {
+  width: 1000px;
+}
+.column2 {
+  text-align: center;
+  padding-right: 40px;
+}
+.column3 {
+  text-align: left;
+}
+.pic {
+  width: 170;
+  height: 170px;
+  border-style: groove;
+  border-width: 5px;
+}
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+.chest-all {
+background-color: rgba(35, 126, 126, 0.678);
+width: 100%;
+height: 450px;
+}
+*.chest-all {
+  font-family: serif;
+  font-weight: bold;
+  padding-bottom: 1000px;
+}
+li {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.back-all {
+  background-color: cornflowerblue;
+  padding-bottom: 1000px;
+}
+.quads-all {
+  background-color: rgb(190, 9, 24);
+  padding-bottom: 1000px;
+}
+.Hamstrings-all  {
+  background-color: rgba(0, 0, 255, 0.801);
+  padding-bottom: 1000px;
+}
+.Biceps-all {
+  background-color: rgb(161, 139, 10);
+  padding-bottom: 1000px;
+}
+.Triceps-all {
+  background-color: aqua;
+  padding-bottom: 1000px;
+}
+.Shoulders-all {
+  background-color: rgba(6, 6, 247, 0.966);
+    padding-bottom: 1000px;
+}
+.protein {
+  text-align: left;
+}
+.carb {
+  text-align: center;
+}
+.options {
+  display: flex;
+  justify-content: space-evenly;
+  border-width: 3px;
+  border-color: rosybrown;
+  border-style: solid;
+  padding-bottom: 17px;
+}
+.food-header {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+.tracking {
+  text-align: center;
+}
+input {
+  border-width: 3px;
+  border-style: outset;
+  border-color: rgba(99, 99, 99, 0.685);
+  border-radius: 2px;
+  width: 90px;
+  height: 12px;
+  padding: 3px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: #eeeeeede;
+  margin-right: 10px;
+}
+.macros {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-width: 3px;
+  border-style: solid;
+}
+h3 {
+  background-color: rgba(70, 131, 180, 0.787);
+}
+/* button {
+  border-width: 2px;
+  border-color: darkseagreen;
+  border-radius: 2px;
+  font-weight: bold;
+  background-color: rgba(70, 131, 180, 0.808);
+} */
+.meal {
+  width: 250px;
+  height: 15px;
+}
+.Muscle-groups {
+  background-color: darkslategrey;
+  padding-bottom: 1000px;
+  color: black;
+}
+.meal-head {
+  text-align: center;
+}
+.food-inputs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nutrition {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+  padding-left: 20px;
+}
+.macro-head {
+  text-align: center;
+}
+.nutrition-add {
+  text-align: left;
+  font-family: monospace;
+ font-weight: 900;
+}
+
+.cardWrapper {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  html,
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+  background-color: #e8e8e8;
+}
+}
+.card {
+  width: 285px;
+  height: 390px;
+  padding: .8em;
+  background: #e2dede;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 25px;
+  margin-left: 300px;
+}
+
+.card-img {
+  background-color: #ffcaa6;
+  height: 40%;
+  width: 100%;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #000000;
+}
+
+.text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+.text-body {
+  font-size: 0.9em;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  font-weight: 550;
+  font-size: 18px;
+}
+
+.card-button {
+  border: 1.75px solid #252525;
+  padding: 1.1em;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 0.3s ease-in-out;
+  margin-left: 100px;
+  background-color: #020202cc;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;  
+}
+
+.card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px,
+    rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+.card-button:hover {
+  border: 1px solid #000000;
+  background-color: #ffffffa8;
+  color: #000000;
+}
+
+.cm-cardWrapper {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  html,
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+  background-color: #e8e8e8;
+}
+}
+.cm-card {
+  width: 800px;
+  height: 300px;
+  padding: .8em;
+  background: #5ee0984f;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 25px;
+}
+.cm-text-title {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.cm-text-body {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cm-card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cm-text-main {
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 170px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: revert;
+}
+select {
+  background-color: hsla(142, 67%, 98%, 0.884);
+  font-size: 17px;
+}
+.front-cardWrapper {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+  display: flex;
+
+  html,
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+  background-color: #e8e8e8;
+}
+}
+.front-card {
+  width: 275px;
+  height: 200px;
+  padding: .8em;
+  background: #e2dede;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 25px;
+ 
+}
+
+.front-card-img {
+  background-color: #ffcaa6;
+  height: 40%;
+  width: 100%;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.front-card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #000000;
+}
+
+.front-text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-size: 28px;
+  text-align: center;
+}
+
+.front-text-body {
+  font-size: 0.9em;
+  padding-bottom: 10px;
+  font-weight: 550;
+  font-size: 12px;
+}
+
+.front-card-button {
+  border: 1.75px solid #252525;
+  padding: 1.1em;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 0.3s ease-in-out;
+  margin-left: 80px;
+  background-color: #020202cc;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;  
+  margin-top: 15px;
+}
+
+.front-card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px,
+    rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+.front-card-button:hover {
+  border: 1px solid #000000;
+  background-color: #ffffffa8;
+  color: #000000;
+}
+.twofront-cardWrapper {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+  display: flex;
+
+  html,
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: arial;
+  background-color: #e8e8e8;
+}
+}
+.twofront-card {
+  width: 275px;
+  height: 200px;
+  padding: .8em;
+  background: #e2dede;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin: 25px;
+ 
+}
+
+.twofront-card-img {
+  background-color: #ffcaa6;
+  height: 40%;
+  width: 100%;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.twofront-card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #000000;
+}
+
+.twofront-text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-size: 28px;
+  text-align: center;
+}
+
+.twofront-text-body {
+  font-size: 0.9em;
+  padding-bottom: 10px;
+  font-weight: 550;
+  font-size: 12px;
+}
+
+.twofront-card-button {
+  border: 1.75px solid #252525;
+  padding: 1.1em;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 0.3s ease-in-out;
+  margin-left: 80px;
+  background-color: #020202cc;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;  
+  margin-top: 15px;
+}
+
+.twofront-card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px,
+    rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+.twofront-card-button:hover {
+  border: 1px solid #000000;
+  background-color: #ffffffa8;
+  color: #000000;
+}
